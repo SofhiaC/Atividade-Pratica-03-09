@@ -1,7 +1,9 @@
+import string 
+
 def anagrama(palavra1, palavra2):
     pass
 
-import string 
+
 
 def encontrar_maior_palavra(frase): #vai receber a grase como parâmetro
     palavras = frase.split() #cria uma lista da frase se baseando nos espaços
@@ -16,4 +18,4 @@ def encontrar_maior_palavra(frase): #vai receber a grase como parâmetro
 
 print(encontrar_maior_palavra("O rato roeu a roupa do rei de Roma.")) #roupa com 5 letras
 print(encontrar_maior_palavra("A jornada de mil milhas começa com um único passo.")) #jornada com 7 letras
-print(encontrar_maior_palavra("Seja forte e corajoso")) #forte com 5 letras
+print(encontrar_maior_palavra("Seja forte e corajoso")) #forte com 5 letras git 
