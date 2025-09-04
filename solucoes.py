@@ -1,5 +1,5 @@
-palavra1 = input("Digite a primeira palavra: ")
-palavra2 = input("Digite a segunda palavra: ")
+palavra1 = input("Digite a primeira palavra: ").lower()
+palavra2 = input("Digite a segunda palavra: ").lower()
 
 def sao_anagramas(palavra1, palavra2):
     if len(palavra1) != len(palavra2):
